@@ -930,7 +930,7 @@ of each header.
 
 =item body
 
-Returns the body of the document retured by the remote server.
+Returns the body of the document returned by the remote server.
 
 =item headers_array
 

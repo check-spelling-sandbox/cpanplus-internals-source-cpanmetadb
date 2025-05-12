@@ -1030,7 +1030,7 @@ setting.  Usual choices are GET, POST, PUT, HEAD
 
     - FTP 
     - HTTPS (SSL)
-    - Authentication/Authorizaton/Proxy-Authorization
+    - Authentication/Authorization/Proxy-Authorization
       are not directly supported, and require MIME::Base64.
     - Redirects (Location) are not automatically followed
     - multipart/form-data POSTs are not directly supported (necessary

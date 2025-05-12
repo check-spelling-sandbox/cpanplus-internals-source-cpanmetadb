@@ -175,6 +175,6 @@ L<CPANPLUS>
 
 L<CPANPLUS::Internals::Source>
 
-L<http://cpanmetadb.appspot.com/>
+L<http://cpanmetadb.plackperl.org/>
 
 =cut

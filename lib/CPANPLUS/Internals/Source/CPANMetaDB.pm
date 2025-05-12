@@ -183,11 +183,11 @@ quite memory intensive.
 
 This source implementation does things slightly different.
 
-Instead of building an in-memory index, it queries the L<http://cpanmetadb.appspot.com/> 
+Instead of building an in-memory index, it queries the L<http://cpanmetadb.plackperl.org/> 
 website for module/distribution information as and when it is required
 by L<CPANPLUS>.
 
-The default CPANMetaDB site is L<http://cpanmetadb.appspot.com/>.
+The default CPANMetaDB site is L<http://cpanmetadb.plackperl.org/>.
 
 You may set the C<PERL5_CPANMETADB_URL> environment variable to an alternative if you wish.
 
@@ -228,7 +228,7 @@ L<CPANPLUS>
 
 L<CPANPLUS::Internals::Source>
 
-L<http://cpanmetadb.appspot.com/>
+L<http://cpanmetadb.plackperl.org/>
 
 L<CPANPLUS::Internals::Source::CPANIDX>
 

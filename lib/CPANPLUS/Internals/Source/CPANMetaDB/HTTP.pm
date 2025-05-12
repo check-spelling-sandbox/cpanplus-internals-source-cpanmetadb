@@ -826,10 +826,10 @@ arguments.  A future version of HTTP::Lite might accept parameters.
 
 Initiates a request to the specified URL.
 
-Returns undef if an I/O error is encountered, otherwise the HTTP
-status code will be returned.  200 series status codes represent
-success, 300 represent temporary errors, 400 represent permanent
-errors, and 500 represent server errors.
+If an I/O error is encountered, return undef; otherwise, return the HTTP
+status code.  200 series status codes represent success, 300 represent
+temporary errors, 400 represent permanent errors, and 500 represent server
+errors.
 
 See F<http://www.w3.org/Protocols/HTTP/HTRESP.html> for detailled
 information about HTTP status codes.

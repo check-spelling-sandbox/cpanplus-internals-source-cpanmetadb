@@ -152,7 +152,7 @@ sub _all_installed {
         ### as we're making assumptions about the length
         ### This solves rt.cpan issue #19738
 
-        ### John M. notes: On VMS cannonpath cannot currently handle
+        ### John M. notes: On VMS canonpath cannot currently handle
         ### the $dir values that are in UNIX format.
         $dir = File::Spec->canonpath( $dir ) unless ON_VMS;
 

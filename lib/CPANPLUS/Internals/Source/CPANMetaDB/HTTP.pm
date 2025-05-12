@@ -885,7 +885,7 @@ The current phases are:
   content - return value is used as content and is sent to client.  Return
             undef to use the internal content defined by prepare_post().
             
-  content-done - content has been successfuly transmitted.
+  content-done - content has been successfully transmitted.
   
   data - A block of data has been received.  The data is referenced by
             $dataref.  The return value is dereferenced and replaces the

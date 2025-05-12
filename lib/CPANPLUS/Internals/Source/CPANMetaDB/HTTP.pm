@@ -145,7 +145,7 @@ sub request
     return undef;
   }
   
-  # Setup the connection
+  # Set up the connection
   my $proto = getprotobyname('tcp');
   local *FH;
   socket(FH, PF_INET, SOCK_STREAM, $proto);

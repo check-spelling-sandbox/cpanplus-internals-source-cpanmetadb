@@ -865,7 +865,7 @@ An example use to save a document to file is:
 
 At various stages of the request, callbacks may be used to modify the
 behaviour or to monitor the status of the request.  These work like the
-$data_callback parameter to request(), but are more verstaile.  Using
+$data_callback parameter to request(), but are more versatile.  Using
 set_callback disables $data_callback in request()
 
 The callbacks are called as: 

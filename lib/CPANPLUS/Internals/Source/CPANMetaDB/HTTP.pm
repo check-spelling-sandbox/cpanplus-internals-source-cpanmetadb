@@ -831,7 +831,7 @@ status code.  200 series status codes represent success, 300 represent
 temporary errors, 400 represent permanent errors, and 500 represent server
 errors.
 
-See F<http://www.w3.org/Protocols/HTTP/HTRESP.html> for detailled
+See F<http://www.w3.org/Protocols/HTTP/HTRESP.html> for detailed
 information about HTTP status codes.
 
 The $data_callback parameter, if used, is a way to filter the data as it is

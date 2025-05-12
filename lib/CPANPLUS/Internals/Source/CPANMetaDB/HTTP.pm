@@ -978,17 +978,17 @@ otherwise the results are undefined.
 
 =item local_addr ( $ip )
 
-Explicity select the local IP address.  0.0.0.0 (default) lets the system
+Explicitly select the local IP address.  0.0.0.0 (default) lets the system
 choose.
 
 =item local_port ( $port )
 
-Explicity select the local port.  0 (default and reccomended) lets the
+Explicitly select the local port.  0 (default and reccomended) lets the
 system choose.
 
 =item method ( $method )
 
-Explicity set the method.  Using prepare_post or reset overrides this
+Explicitly set the method.  Using prepare_post or reset overrides this
 setting.  Usual choices are GET, POST, PUT, HEAD
 
 =back

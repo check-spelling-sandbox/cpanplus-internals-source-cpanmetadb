@@ -983,7 +983,7 @@ choose.
 
 =item local_port ( $port )
 
-Explicitly select the local port.  0 (default and reccomended) lets the
+Explicitly select the local port.  0 (default and recommended) lets the
 system choose.
 
 =item method ( $method )
